@@ -40,7 +40,7 @@ void setup() {
   pinMode(ledTest, OUTPUT);
   digitalWrite(ledTest, LOW);
 
-  //Saludo inicial
+  //Beginning greeting
     for (int i=0; i<5; i++)
     digitalWrite(ledTest, HIGH);
     delay(50);
